@@ -1,14 +1,20 @@
-**Домашнє завдання**
+# Clean folder
 
-**Завдання**
+The script can be called anywhere on the system from the console with the `clean-folder` command.
 
-У цьому домашньому завданні ми зробимо зі скрипту розбору папки Python-пакет та консольний скрипт, який можна викликати у будь-якому місці системи з консолі командою clean-folder.
+The script goes through the folder specified during the call and sorts all files into groups:
 
-У clean_folder/clean_folder/clean.py потрібно помістити все, що ми зробили у попередніх домашніх завданнях по розбору папки. Ваше основне завдання написати clean_folder/setup.py, щоб вбудований інструментарій Python міг встановити цей пакет та операційна система могла використати цей пакет як консольну команду.
+1. image('JPEG', 'PNG', 'JPG', 'SVG');
+2. video files ('AVI', 'MP4', 'MOV', 'MKV');
+3. documents ('DOC', 'DOCX', 'TXT', 'PDF', 'XLSX', 'PPTX');
+4. music ('MP3', 'OGG', 'WAV', 'AMR');
+5. archives ('ZIP', 'GZ', 'TAR');
+6. unknown extensions.
 
-_Критерії приймання завдання_
+## Usage 
 
-Пакет встановлюється в систему командою pip install -e . (або python setup.py install, потрібні права адміністратора).
-Після встановлення в системі з'являється пакет clean_folder.
-Коли пакет встановлений в системі, скрипт можна викликати у будь-якому місці з консолі командою clean-folder
-Консольний скрипт обробляє аргументи командного рядка точно так, як і Python-скрипт.
+The package is installed on the system with the `pip install -e command`. (or `python setup.py install`, requires admin rights).
+
+After installation, the clean_folder package appears in the system.
+
+When the package is installed on the system, the script can be called anywhere from the console with the `clean-folder` command.
